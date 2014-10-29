@@ -1,8 +1,12 @@
 #include "c.h"
 #include "b.h"
 #include "a.h"
+#include "polymorphism.h"
 
-int main() {
+void poly() {
+	
+	//p->notIncluded();
+	
 	C c, *p;
 	A a;
 	B b;
@@ -19,7 +23,4 @@ int main() {
 	p = (C*) &b;
 	p->run();
 	p->virtualRun();
-	//p->notIncluded();
-
-	return 0;
-}
+};

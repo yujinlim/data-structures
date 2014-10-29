@@ -1,5 +1,9 @@
 #include <iostream>
 #include <string.h>
+#include "polymorphism.h"
+#include "fobjects.h"
+#include "math.h"
+#include "weeklysales.h"
 
 class Data
 {
@@ -50,15 +54,30 @@ struct Node {
 	}
 };
 
-//int main() {
-//	//Data d = Data("object 1", 2, 30.2);	
-//
-//	//d.run();
-//	int *p, a = 3;
-//	p = &a;
-//	*p = 10;
-//	
-//	Node node1("roger", 20), node2("here", 10);
-//	delete &node1;
-//	return 1;
-//}
+int main() {
+	int *p, a = 3;
+	p = &a;
+	*p = 10;
+	WeeklySalaryCounter sales;
+	sales.run();
+	
+	//Node node1("roger", 20), node2("here", 10);
+	//delete &node1;
+	//poly();
+	sum();
+
+	Math m;
+	bool found = false;
+	int start = 1226;
+	while (!found) {
+		if (m.squareRoot(start) && start == m.sum(m.findRoot(start))) {
+			printf("%i", start);
+			found = true;
+		} else {
+			start++;
+		}
+	}
+
+
+	return 0;
+}

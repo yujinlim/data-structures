@@ -62,13 +62,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="functionObjects.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="polymorphism.cpp" />
+    <ClCompile Include="sales.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a.h" />
     <ClInclude Include="b.h" />
     <ClInclude Include="c.h" />
+    <ClInclude Include="d.h" />
+    <ClInclude Include="fobjects.h" />
+    <ClInclude Include="math.h" />
+    <ClInclude Include="polymorphism.h" />
+    <ClInclude Include="weeklysales.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

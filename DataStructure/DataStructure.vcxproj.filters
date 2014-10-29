@@ -21,6 +21,12 @@
     <ClCompile Include="polymorphism.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="functionObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sales.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a.h">
@@ -30,6 +36,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="polymorphism.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fobjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="weeklysales.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
